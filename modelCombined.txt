@@ -1,0 +1,19 @@
+model {
+# priors
+beta0 ~ dnorm(0,0.001)
+beta1 ~ dnorm(0,0.001)
+beta2 ~ dnorm(0,0.001)
+
+eta0 ~ dbeta(2,2)
+eta1 ~ dbeta(2,2)
+eta2 ~ dbeta(2,2)
+
+# likelihood
+for(i in 1:N.cells){
+  immigrants[i] ~ dpois(lambda[i])
+  log(lambda[i]) <- beta0 + beta1*(eta0 + eta1*denC[i] + eta2*denS[i])
+ * exp(-beta2*(eta0 + eta1*denC[i] + eta2*denS[i]))
+  # this part is here in order to make nice prediction curves:
+  prediction[i] ~ dpois(lambda[i])
+  } 
+}

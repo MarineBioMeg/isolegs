@@ -1,0 +1,14 @@
+model {
+# priors
+alpha0 ~ dnorm(0,0.001)
+alpha1 ~ dnorm(0,0.001)
+alpha2 ~ dnorm(0,0.001)
+
+# likelihood
+for(i in 1:N.cells){
+  immigrants[i] ~ dpois(lambda[i]) # Count data are poisson-distributed
+  log(lambda[i]) <- alpha0 + alpha1*density[i] * exp(-alpha2*density[i]) # Our "expected" counts based on initial densities
+  # this part is here in order to make nice prediction curves:
+  prediction[i] ~ dpois(lambda[i])
+  } 
+}
