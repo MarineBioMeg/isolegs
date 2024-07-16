@@ -1,0 +1,32 @@
+site,year,d.treat,d.untreat,species
+ASH ,2015,0.3435,0.16,chinook
+HSC,2015,0.6067,0.1422,chinook
+YAK,2015,0.3132,0.1111,chinook
+PUD,2015,0.7004,0.3128,chinook
+KEY,2015,1.2293,0.0311,chinook
+ASH ,2016,0.5242,0.1644,chinook
+HSC,2016,0.4792,0.0533,chinook
+YAK,2016,0.5648,0.2578,chinook
+PUD,2016,0.4011,0.3911,chinook
+KEY,2016,0.2432,0.0311,chinook
+ASH ,2015,0.1526,0.1422,steelhead
+HSC,2015,0.4668,0.2222,steelhead
+YAK,2015,0.4455,0.1244,steelhead
+PUD,2015,0.3002,0.3556,steelhead
+KEY,2015,0.2169,0.0356,steelhead
+ASH ,2016,0.1192,0.0444,steelhead
+HSC,2016,0.1035,0.0578,steelhead
+YAK,2016,0.1216,0.0578,steelhead
+PUD,2016,0.0618,0.0444,steelhead
+KEY,2016,0.164,0.0178,steelhead
+ASH ,2009,1.382290117,0.238095238,chinook
+ASH ,2011,0.64035773,0.516666667,chinook
+ASH ,2012,1.231015314,0.14,chinook
+ASH ,2013,1.56,0.39,chinook
+ASH ,2014,1.27,0.41,chinook
+ASH ,2009,0.809660023,0.465608466,steelhead
+ASH ,2011,0.14275979,0.046666667,steelhead
+ASH ,2012,0.160033838,0.04,steelhead
+ASH ,2013,0.16,0.23,steelhead
+ASH ,2014,0.75,0.19,steelhead
+,,,,
