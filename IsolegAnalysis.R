@@ -17,7 +17,6 @@ library(ggplot2)
 #load 2014 and 2015 data
 bigtreat<-read.csv("20142015_HSI_isolegs.csv")
 
-bigtreat<rbind(chindeep, steeldeep)
 #Chinook
 # x, y and z coordinates
 x <- bigtreat$total_C
