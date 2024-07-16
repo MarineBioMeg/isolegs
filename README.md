@@ -1,6 +1,6 @@
 # Isodar and Isolegs
 
-Isodar code by Spencer Carran 
+Isodar and Immigration/Emigration code by Spencer Carran 
 
 Isoleg code by M. Malone. This code is for conducting isoleg analyses in Polivka et al. 2024
 When conducting an isoleg analysis on activity densities observed in the wild one should first (as always) conduct exploratory analyses.
