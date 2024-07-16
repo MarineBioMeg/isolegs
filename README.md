@@ -1,6 +1,8 @@
-# Isolegs
+# Isodar and Isolegs
 
-This code is for conducting isoleg analyses in Polivka et al. 2024
+Isodar code by Spencer Carren 
+
+Isoleg code by M. Malone. This code is for conducting isoleg analyses in Polivka et al. 2024
 When conducting an isoleg analysis on activity densities observed in the wild one should first (as always) conduct exploratory analyses.
 Exploratory analysis should indicate if there are paired habitats organisms can select between.
 In our case, this meant analyzing treated habitats, paired as deep and shallow.
